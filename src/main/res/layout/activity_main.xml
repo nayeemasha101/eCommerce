@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/applogo"/>
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="match_parent"
+        android:text="Find, Discover, Choose and Buy anything online."
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="88dp"
+        android:textAlignment="center"
+        android:textColor="#e4e72c"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="Join Now"
+        android:textColor="#f7f4f4"
+        android:layout_gravity="bottom"/>
+
+
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="Already have an account?Login"
+        android:textColor="#f7f4f4"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>
